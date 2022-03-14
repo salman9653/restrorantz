@@ -12,6 +12,8 @@ html {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  background-image: url(../../../public/images/pizza.jpg);
+  background-size: cover;
 }
 
 *,
@@ -29,10 +31,15 @@ html {
   grid-template-columns: repeat(3, minmax(300px, 500px));
   grid-gap: 50px;
   justify-content: space-around;
+  margin-top: 25px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgb(107, 101, 101);
 }
 
 .card-container {
-  margin: 25px auto 0;
+  margin: 30px 10px 0 10px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr;
@@ -43,6 +50,7 @@ html {
 .card-container img {
   max-width: 100%;
   height: 300px;
+  border-radius: 30px;
 }
 
 .card {
@@ -51,6 +59,7 @@ html {
   position: relative;
   box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
   z-index: 1;
+  border-radius: 30px;
 }
 
 .card-body {
@@ -82,15 +91,16 @@ html {
 
 .card-title {
   font-family: "Cormorant Garamond", serif;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 300;
   line-height: 60px;
   margin: 10px 0;
   text-transform: capitalize;
+  color: rebeccapurple;
 }
 
 .card-description {
-  /* display: inline-block; */
+  display: inline-block;
   font-weight: 300;
   line-height: 22px;
   margin: 10px 0;
@@ -123,11 +133,12 @@ html {
   border: 1px solid #aaa;
   padding: 5px 10px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .card-tag:hover {
-  background: #aaa;
-  color: black;
+  background: rebeccapurple;
+  color: rgb(255, 255, 255);
 }
 
 .card-media {
@@ -163,7 +174,9 @@ html {
 
 .navbar h1 {
   padding-bottom: 20px;
+  font-size: 35px;
   text-transform: capitalize;
+  color: #faf7f2;
 }
 
 /** button group styles **/
@@ -175,7 +188,9 @@ html {
   border: none;
   /* min-width: 6rem; */
   padding: 1.5rem 3rem;
-  background-color: rgb(255, 255, 255);
+  color: #faf7f2;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
   cursor: pointer;
   margin: 0;
   font-size: 17px;
@@ -193,7 +208,6 @@ html {
 }
 .btn-group__item:hover,
 .btn-group__item:focus {
-  color: rebeccapurple;
   box-shadow: inset 0px -20px 0px -15px rebeccapurple;
 }
 .btn-group__item:focus {

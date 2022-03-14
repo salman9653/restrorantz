@@ -4,6 +4,7 @@ const Navbar = ({ filter, menuList }) => {
     return (
         <>
             <nav className="navbar">
+                <h1>Restrorant Z</h1>
                 <div className="btn-group">
                     {menuList.map((item) => {
                         return (
