@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/restrorantz/static/css/main.580cf2b6.css",
+    "main.js": "/restrorantz/static/js/main.4f496fe8.js",
+    "static/media/pizza.jpg": "/restrorantz/static/media/pizza.beb988c8a812e6be9a20.jpg",
+    "index.html": "/restrorantz/index.html",
+    "main.580cf2b6.css.map": "/restrorantz/static/css/main.580cf2b6.css.map",
+    "main.4f496fe8.js.map": "/restrorantz/static/js/main.4f496fe8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.580cf2b6.css",
+    "static/js/main.4f496fe8.js"
+  ]
+}
